@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VXu1aRFhg2nok1f8JZfcdXwZhkPchwttPC1HiwyxmNilqQpDFcJNmLM3c6CUTQyTSlLs8Eq2ZoV3ivy8tVF7nA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DrPlague\\.nuget\\packages\\h.inputsimulator\\1.2.6\\h.inputsimulator.1.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}

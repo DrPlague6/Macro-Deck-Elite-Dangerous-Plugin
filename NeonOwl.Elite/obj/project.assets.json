@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "H.InputSimulator/1.2.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/H.InputSimulator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/H.InputSimulator.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "H.InputSimulator/1.2.6": {
+      "sha512": "ZAeeN8m1G/nnFiAriVeNVe2DaFf2DlerovZrVKkcATNLvfq3gMrAD1wXyfBVtxEOqHh9S1yod+6/733YXU1W1Q==",
+      "type": "package",
+      "path": "h.inputsimulator/1.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "h.inputsimulator.1.2.6.nupkg.sha512",
+        "h.inputsimulator.nuspec",
+        "lib/net451/H.InputSimulator.dll",
+        "lib/net451/H.InputSimulator.xml",
+        "lib/net5.0/H.InputSimulator.dll",
+        "lib/net5.0/H.InputSimulator.xml",
+        "lib/net6.0/H.InputSimulator.dll",
+        "lib/net6.0/H.InputSimulator.xml",
+        "lib/netstandard1.1/H.InputSimulator.dll",
+        "lib/netstandard1.1/H.InputSimulator.xml",
+        "lib/netstandard2.0/H.InputSimulator.dll",
+        "lib/netstandard2.0/H.InputSimulator.xml",
+        "nuget_icon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "H.InputSimulator >= 1.2.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DrPlague\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
+      "projectName": "NeonOwl.Elite",
+      "projectPath": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
+      "packagesPath": "C:\\Users\\DrPlague\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DrPlague\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "H.InputSimulator": {
+            "target": "Package",
+            "version": "[1.2.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
