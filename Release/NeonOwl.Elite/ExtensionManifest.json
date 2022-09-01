@@ -1,0 +1,10 @@
+﻿{
+  "type": "Plugin",
+  "name": "Elite",
+  "author": "Neon Owl",
+  "repository": "https://github.com/Develeon64/Macro-Deck-Spotify-Plugin",
+  "packageId": "NeonOwl.Elite",
+  "version": "1.1.0",
+  "target-plugin-api-version": 36,
+  "dll": "NeonOwl.Elite.dll"
+}
