@@ -1,0 +1,12 @@
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\NeonOwl.Elite.deps.json
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\NeonOwl.Elite.dll
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\NeonOwl.Elite.pdb
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\Macro Deck 2.dll
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.csproj.AssemblyReference.cache
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.AssemblyInfoInputs.cache
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.AssemblyInfo.cs
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.csproj.CoreCompileInputs.cache
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.csproj.CopyComplete
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.dll
+C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.pdb
