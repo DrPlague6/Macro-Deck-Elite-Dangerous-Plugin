@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
 using SuchByte.MacroDeck.InternalPlugins.DevicePlugin;
 using SuchByte.MacroDeck.Logging;
+using WindowsInput;
 
 namespace NeonOwl.Elite.Utils
 {
@@ -30,8 +32,10 @@ namespace NeonOwl.Elite.Utils
                 if (!File.Exists(_bindingPath))
                     return false;
             }
+
             return true;
         }
+
         public void LoadConfig()
         {
             XmlSerializer serializer = new XmlSerializer(typeof(UserBindings));
@@ -40,5 +44,6 @@ namespace NeonOwl.Elite.Utils
             reader.Close();
             MacroDeckLogger.Info(PluginInstance.Main, "Loaded Elite Dangerous config");
         }
+        
     }
 }

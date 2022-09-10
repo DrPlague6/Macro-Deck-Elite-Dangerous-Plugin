@@ -1,8 +1,10 @@
-﻿using WindowsInput;
+﻿using System.Collections.Generic;
+using SuchByte.MacroDeck.Logging;
+using WindowsInput;
 
 namespace NeonOwl.Elite.Utils
 {
-    public class KeyConverter
+    public class Keyboard
     {
         public VirtualKeyCode GetKey(string key)
         {
@@ -158,9 +160,44 @@ namespace NeonOwl.Elite.Utils
                     return VirtualKeyCode.LMENU;
                 case "Key_RightAlt":
                     return VirtualKeyCode.RMENU;
-               default:
-                   return VirtualKeyCode.None;
+                default:
+                    return VirtualKeyCode.None;
             }
+        }
+
+        public void TriggerKeyBinding(StandardBindingInfo standardBinding)
+        {
+            List<VirtualKeyCode> modifierKeys = new List<VirtualKeyCode>();
+            VirtualKeyCode triggerKey;
+            if (standardBinding.Primary.Device == "Keyboard")
+            {
+                triggerKey = GetKey(standardBinding.Primary.Key);
+                foreach (Binding modifier in standardBinding.Primary.Modifier)
+                {
+                    VirtualKeyCode tmp = GetKey(modifier.Key);
+                    if (tmp == VirtualKeyCode.None)
+                        continue;
+                    modifierKeys.Add(tmp);
+                }
+            }
+            else if (standardBinding.Secondary.Device == "Keyboard")
+            {
+                triggerKey = GetKey(standardBinding.Secondary.Key);
+                foreach (Binding modifier in standardBinding.Secondary.Modifier)
+                {
+                    VirtualKeyCode tmp = GetKey(modifier.Key);
+                    if (tmp == VirtualKeyCode.None)
+                        continue;
+                    modifierKeys.Add(tmp);
+                }
+            }
+            else
+            {
+                MacroDeckLogger.Error(PluginInstance.Main, "No keyboard binding found for landing gear toggle.");
+                return;
+            }
+
+            PluginInstance.Input.Keyboard.ModifiedKeyStroke(modifierKeys, triggerKey);
         }
     }
 }
