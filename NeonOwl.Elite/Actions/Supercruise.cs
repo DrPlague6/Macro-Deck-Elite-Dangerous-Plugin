@@ -13,8 +13,8 @@ namespace NeonOwl.Elite.Actions
 {
     public class Supercruise : PluginAction
     {
-        public override string Name => "Enter Hyperspace";
-        public override string Description => "Enter Hyperspace.";
+        public override string Name => "Supercruise";
+        public override string Description => "Toggle Supercruise.";
 
         public override void Trigger(string clientId, ActionButton actionButton)
         {

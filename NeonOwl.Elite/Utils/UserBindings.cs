@@ -9,7 +9,7 @@ using static System.Net.WebRequestMethods;
 
 namespace NeonOwl.Elite.Utils
 {
-    //C:\Users\DrPlague\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings
+    // Source https://github.com/mhwlng/streamdeck-elite/blob/master/Elite/UserBindings.cs
     public enum BindingType : int
     {
         General = 0,

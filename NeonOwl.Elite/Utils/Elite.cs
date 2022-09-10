@@ -8,7 +8,7 @@ using WindowsInput;
 
 namespace NeonOwl.Elite.Utils
 {
-    public class EliteShortcuts
+    public class EliteUtils
     {
         string _bindingPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
             @"Frontier Developments\Elite Dangerous\Options\Bindings");

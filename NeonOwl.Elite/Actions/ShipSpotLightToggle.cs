@@ -13,7 +13,7 @@ namespace NeonOwl.Elite.Actions
 {
     public class ShipSpotLightToggle : PluginAction
     {
-        public override string Name => "Toggle Ship Spot Light";
+        public override string Name => "Ship Spot Light";
         public override string Description => "Turn on/off spot light.";
 
         public override void Trigger(string clientId, ActionButton actionButton)

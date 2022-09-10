@@ -11,10 +11,10 @@ using WindowsInput;
 
 namespace NeonOwl.Elite.Actions
 {
-    public class EnterHyperspace : PluginAction
+    public class Hyperspace : PluginAction
     {
-        public override string Name => "Enter Hyperspace";
-        public override string Description => "Enter/exit Hyperspace.";
+        public override string Name => "Hyperspace";
+        public override string Description => "Enter Hyperspace.";
 
         public override void Trigger(string clientId, ActionButton actionButton)
         {

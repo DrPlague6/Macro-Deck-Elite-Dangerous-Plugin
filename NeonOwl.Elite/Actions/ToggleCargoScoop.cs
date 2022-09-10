@@ -11,10 +11,10 @@ using WindowsInput;
 
 namespace NeonOwl.Elite.Actions
 {
-    public class ToggleCargoHatch : PluginAction
+    public class ToggleCargoScoop : PluginAction
     {
-        public override string Name => "Toggle Fuel Gear";
-        public override string Description => "Deploy or retract landing gear.";
+        public override string Name => "Cargo Scoop";
+        public override string Description => "Deploy or retract cargo scoop.";
 
         public override void Trigger(string clientId, ActionButton actionButton)
         {

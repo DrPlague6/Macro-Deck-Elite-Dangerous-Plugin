@@ -4,7 +4,7 @@ using WindowsInput;
 
 namespace NeonOwl.Elite.Utils
 {
-    public class Keyboard
+    public class KeyboardUtils
     {
         public VirtualKeyCode GetKey(string key)
         {

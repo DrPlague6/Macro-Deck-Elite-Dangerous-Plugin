@@ -15,7 +15,7 @@ namespace NeonOwl.Elite
     {
         public static Main Main = new Main();
         public static readonly InputSimulator Input = new InputSimulator();
-        public static readonly EliteShortcuts EliteBindings = new EliteShortcuts();
+        public static readonly EliteUtils EliteBindings = new EliteUtils();
     }
 
     public class Main : MacroDeckPlugin
@@ -33,6 +33,10 @@ namespace NeonOwl.Elite
             this.Actions = new List<PluginAction>
             {
                 new ToggleLandingGear(),
+                new ToggleCargoScoop(),
+                new ShipSpotLightToggle(),
+                new Hyperspace(),
+                new Supercruise(),
             };
         }
     }
