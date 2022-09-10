@@ -11,14 +11,14 @@ using WindowsInput;
 
 namespace NeonOwl.Elite.Actions
 {
-    public class ToggleLandingGear : PluginAction
+    public class Hyperspace : PluginAction
     {
-        public override string Name => "Landing Gear";
-        public override string Description => "Deploy or retract landing gear.";
+        public override string Name => "Hyperspace";
+        public override string Description => "Enter Hyperspace.";
 
         public override void Trigger(string clientId, ActionButton actionButton)
         {
-            new KeyboardUtils().TriggerKeyBinding(PluginInstance.EliteBindings.UserBindings.LandingGearToggle);
+            new KeyboardUtils().TriggerKeyBinding(PluginInstance.EliteBindings.UserBindings.Hyperspace);
         }
     }
 }

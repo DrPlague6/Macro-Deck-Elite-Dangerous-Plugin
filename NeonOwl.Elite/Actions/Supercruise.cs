@@ -11,14 +11,14 @@ using WindowsInput;
 
 namespace NeonOwl.Elite.Actions
 {
-    public class ToggleLandingGear : PluginAction
+    public class Supercruise : PluginAction
     {
-        public override string Name => "Landing Gear";
-        public override string Description => "Deploy or retract landing gear.";
+        public override string Name => "Supercruise";
+        public override string Description => "Toggle Supercruise.";
 
         public override void Trigger(string clientId, ActionButton actionButton)
         {
-            new KeyboardUtils().TriggerKeyBinding(PluginInstance.EliteBindings.UserBindings.LandingGearToggle);
+            new KeyboardUtils().TriggerKeyBinding(PluginInstance.EliteBindings.UserBindings.Supercruise);
         }
     }
 }

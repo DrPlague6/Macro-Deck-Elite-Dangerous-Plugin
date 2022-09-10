@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\NeonOwl.Elite.csproj": {}
+    "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\NeonOwl.Elite\\NeonOwl.Elite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\NeonOwl.Elite.csproj": {
+    "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\NeonOwl.Elite\\NeonOwl.Elite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
+        "projectUniqueName": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
         "projectName": "NeonOwl.Elite",
-        "projectPath": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
+        "projectPath": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
         "packagesPath": "C:\\Users\\DrPlague\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\Source\\NeonOwl.Elite\\obj\\",
+        "outputPath": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\NeonOwl.Elite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DrPlague\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "H.InputSimulator": {
               "target": "Package",
               "version": "[1.2.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

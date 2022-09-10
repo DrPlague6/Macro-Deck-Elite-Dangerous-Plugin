@@ -11,14 +11,14 @@ using WindowsInput;
 
 namespace NeonOwl.Elite.Actions
 {
-    public class ToggleLandingGear : PluginAction
+    public class ShipSpotLightToggle : PluginAction
     {
-        public override string Name => "Landing Gear";
-        public override string Description => "Deploy or retract landing gear.";
+        public override string Name => "Ship Spot Light";
+        public override string Description => "Turn on/off spot light.";
 
         public override void Trigger(string clientId, ActionButton actionButton)
         {
-            new KeyboardUtils().TriggerKeyBinding(PluginInstance.EliteBindings.UserBindings.LandingGearToggle);
+            new KeyboardUtils().TriggerKeyBinding(PluginInstance.EliteBindings.UserBindings.ShipSpotLightToggle);
         }
     }
 }
