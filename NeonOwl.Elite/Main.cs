@@ -20,6 +20,8 @@ namespace NeonOwl.Elite
 
     public class Main : MacroDeckPlugin
     {
+        public System.Timers.Timer TickTimer;
+
         public override void Enable()
         {
             if (!PluginInstance.EliteBindings.CheckForConfig())
@@ -28,6 +30,14 @@ namespace NeonOwl.Elite
                 return;
             }
 
+            TickTimer = new System.Timers.Timer()
+            {
+                Enabled = true,
+                Interval = 10000,
+            };
+            this.TickTimer.Start();
+
+            this.TickTimer.Elapsed += (sender, e) => { PluginInstance.EliteBindings.LoadConfig(); };
             PluginInstance.EliteBindings.LoadConfig();
 
             this.Actions = new List<PluginAction>
