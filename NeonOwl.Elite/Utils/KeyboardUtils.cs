@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading;
 using SuchByte.MacroDeck.Logging;
 using WindowsInput;
 
@@ -162,6 +163,16 @@ namespace NeonOwl.Elite.Utils
                     return VirtualKeyCode.LMENU;
                 case "Key_RightAlt":
                     return VirtualKeyCode.RMENU;
+                case "Key_Apostrophe":
+                    return VirtualKeyCode.OEM_7;
+                case "Key_Semicolon":
+                    return VirtualKeyCode.OEM_1;
+                case "Key_LeftBracket":
+                    return VirtualKeyCode.OEM_4;
+                case "Key_RightBracket":
+                    return VirtualKeyCode.OEM_6;
+                case "Key_Comma":
+                    return VirtualKeyCode.OEM_COMMA;
                 default:
                     return VirtualKeyCode.None;
             }
@@ -196,11 +207,25 @@ namespace NeonOwl.Elite.Utils
             else
             {
                 MacroDeckLogger.Error(PluginInstance.Main,
-                    "No keyboard binding found for " + standardBinding.ToString() + " gear toggle.");
+                    "No keyboard binding found for this action.");
                 return;
             }
 
-            PluginInstance.Input.Keyboard.ModifiedKeyStroke(modifierKeys, triggerKey);
+            foreach (VirtualKeyCode mod in modifierKeys)
+            {
+                PluginInstance.Input.Keyboard.KeyDown(mod);
+            }
+
+            Thread.Sleep(200);
+            PluginInstance.Input.Keyboard.KeyDown(triggerKey);
+
+            Thread.Sleep(200);
+            PluginInstance.Input.Keyboard.KeyUp(triggerKey);
+
+            foreach (VirtualKeyCode mod in modifierKeys)
+            {
+                PluginInstance.Input.Keyboard.KeyUp(mod);
+            }
         }
     }
 }
