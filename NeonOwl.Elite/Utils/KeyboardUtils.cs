@@ -193,7 +193,7 @@ namespace NeonOwl.Elite.Utils
             }
             else
             {
-                MacroDeckLogger.Error(PluginInstance.Main, "No keyboard binding found for landing gear toggle.");
+                MacroDeckLogger.Error(PluginInstance.Main, "No keyboard binding found for "+ standardBinding.ToString() +" gear toggle.");
                 return;
             }
 
