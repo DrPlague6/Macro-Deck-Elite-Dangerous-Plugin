@@ -156,6 +156,8 @@ namespace NeonOwl.Elite.Utils
                     return VirtualKeyCode.RCONTROL;
                 case "Key_LeftShift":
                     return VirtualKeyCode.LSHIFT;
+                case "Key_RightShift":
+                    return VirtualKeyCode.RSHIFT;
                 case "Key_LeftAlt":
                     return VirtualKeyCode.LMENU;
                 case "Key_RightAlt":
@@ -193,7 +195,8 @@ namespace NeonOwl.Elite.Utils
             }
             else
             {
-                MacroDeckLogger.Error(PluginInstance.Main, "No keyboard binding found for "+ standardBinding.ToString() +" gear toggle.");
+                MacroDeckLogger.Error(PluginInstance.Main,
+                    "No keyboard binding found for " + standardBinding.ToString() + " gear toggle.");
                 return;
             }
 
