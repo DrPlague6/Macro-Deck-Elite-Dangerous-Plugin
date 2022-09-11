@@ -5,8 +5,6 @@ A collection of some useful features for controlling Elite Dangerous
 
 ## This version does not support configuration updates, so if you make any changes to the controls menu, make sure you restart the application.
 
-Translated with www.DeepL.com/Translator (free version)
-
 ### This is a plugin for [Macro Deck 2](https://github.com/SuchByte/Macro-Deck), it does NOT function as a standalone app
 <img height="64px" src="https://macrodeck.org/images/macro_deck_2_official_plugin.png" />
 
