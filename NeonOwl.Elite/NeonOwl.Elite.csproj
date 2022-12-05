@@ -7,14 +7,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="H.InputSimulator" Version="1.2.6" />
-	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	  <Reference Include="H.InputSimulator">
+	    <HintPath>Lib\H.InputSimulator.dll</HintPath>
+	    <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Macro Deck 2">
+	    <HintPath>..\..\..\..\..\..\Program Files\Macro Deck\Macro Deck 2.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Newtonsoft.Json">
+	    <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+	    <Private>True</Private>
+	  </Reference>
 	</ItemGroup>
 
-	<ItemGroup>
-		<Reference Include="Macro Deck 2">
-			<HintPath>..\..\..\..\..\..\Program Files\Macro Deck\Macro Deck 2.dll</HintPath>
-		</Reference>
-	</ItemGroup>
-
+	
 </Project>

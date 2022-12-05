@@ -10,3 +10,17 @@ C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.E
 C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.csproj.CopyComplete
 C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.dll
 C:\Users\DrPlague\Documents\Projects\Macro-Deck-Elite-Dangerous-Plugin\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.pdb
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\NeonOwl.Elite.deps.json
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\NeonOwl.Elite.dll
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\NeonOwl.Elite.pdb
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\H.InputSimulator.dll
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\Macro Deck 2.dll
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\bin\x64\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.csproj.AssemblyReference.cache
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.AssemblyInfoInputs.cache
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.AssemblyInfo.cs
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.csproj.CoreCompileInputs.cache
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.csproj.CopyComplete
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.dll
+C:\Users\drpla\Documents\Projects\MacroDeck\NeonOwl.Elite\obj\x64\Release\netcoreapp3.1\NeonOwl.Elite.pdb

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pn4P0/UEQPZiorYnJDdsUGyQtJvCoY58f5YfvowRQbaXA87iVMUnn7wAwUUqdIYHEEcVRC0V7NprR8hrsJG9PQ==",
+  "dgSpecHash": "fcrjtxXMRc+74HypSa3V3CeLJkoZPXyUroTzvceGYREacLYSm6m96lnysvSDt6y5VUHA04ZOX66mJ6FFVLuBNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DrPlague\\Documents\\Projects\\Macro-Deck-Elite-Dangerous-Plugin\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\DrPlague\\.nuget\\packages\\h.inputsimulator\\1.2.6\\h.inputsimulator.1.2.6.nupkg.sha512",
-    "C:\\Users\\DrPlague\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\drpla\\Documents\\Projects\\MacroDeck\\NeonOwl.Elite\\NeonOwl.Elite.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
